@@ -1,2 +1,2 @@
-# tl-mini-projects
-My Mini Projects
+# Craps Game
+Dice game Projects
