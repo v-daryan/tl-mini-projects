@@ -15,9 +15,9 @@ def countdown():
 	timer_text = input("Insert time to count down (h:m:s) ")
 	try:
 		hours, mins, secs = map(int, timer_text.split(":"))
-		timer = hours + mins + secs
+		timer = hours * 3600 + mins * 60 + secs
 		create_timer(timer)
-	except:
+	except ValueError:
 		print("Please enter valid time format.")
 
 countdown()
